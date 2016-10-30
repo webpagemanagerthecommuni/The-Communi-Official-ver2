@@ -26,8 +26,8 @@ a:hover {
   text-decoration: none;
   margin: 0px;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  /*background-color: #159957;*/
+  background-image: linear-gradient(120deg, #960606, #e0600b); }
 
 .page-header a:hover {
   color: white;
