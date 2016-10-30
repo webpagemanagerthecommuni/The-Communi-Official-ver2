@@ -30,8 +30,8 @@ a:hover {
   text-decoration: none;
   margin: 0px;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  /*background-color: #159957;*/
+  background-image: linear-gradient(120deg, #960606, #e0600b); }
 
 .page-header a:hover {
   color: white;
@@ -207,20 +207,22 @@ a:hover {
       font-weight: bold;
 }
 
- #box1{
-  margin: 10px;
+ #twobox1{
   padding: 10px;
-  border: 1px solid black;
-}  
- #twobox{
   margin: 10px;
   background-color: #FFEBCD;
-  border: 0px 1px 0px 1px solid black;
+  border: 1px solid black;
+}  
+ #twobox2{
+  padding: 10px;
+  margin: 10px;
+  background-color: #6495ED;
+  border: 1px solid black;
 }  
 
  #box2, #box4{
   padding: 10px;
-  padding: 10px;
+  margin: 10px;
   background-color: #FFDEAD;
   border: 1px solid black;
 }
@@ -240,8 +242,8 @@ background: #BC8F8F;
  #footer{
       padding: 10px;
       color: white;
-      background-color: #159957;
-      background-image: linear-gradient(120deg, #155799, #159957);
+      /*background-color: #159957;*/
+      background-image: linear-gradient(120deg, #960606, #e0600b);
       }
 
 ul, li {
