@@ -207,7 +207,17 @@ a:hover {
       font-weight: bold;
 }
 
+ #box1{
+  margin: 10px;
+  padding: 0px;
   
+}  
+ #twobox{
+  padding: 0px;
+  padding: 10px;
+  background-color: #FFEBCD;
+  border: 1px solid black;
+}  
 
  #box2, #box4{
   background-color: #FFDEAD;
@@ -215,7 +225,7 @@ a:hover {
   padding: 10px;
    border: 1px solid black;
 }
- #box1, #box3, #box5{
+ #box3, #box5{
   background-color: #FFEBCD;
   margin: 10px;
   padding: 10px;
