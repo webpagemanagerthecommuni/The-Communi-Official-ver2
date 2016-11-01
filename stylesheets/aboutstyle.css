@@ -12,7 +12,7 @@ body {
   font-size: 16px; 
   line-height: 1;
   color: #606c71; }
-
+/*-------------------------------------------------------------------*/
 /*hyperlinks*/
 
 a {
@@ -22,7 +22,7 @@ a {
 a:hover {
   color: white;
 }
-
+/*-------------------------------------------------------------------*/
 /* Navbar CSS */
 
 .page-header {
@@ -102,7 +102,8 @@ a:hover {
 @media screen and (max-width: 499px) {
   .project-tagline {
     font-size: 8px; } }
-
+/*-------------------------------------------------------------------*/
+/*CLOCKBOX Styling*/
 #clockbox {
   float: left;
 }
@@ -121,7 +122,8 @@ a:hover {
 @media screen and (max-width: 499px) {
   #clockbox {
     font-size: 8px; } }
-
+/*-------------------------------------------------------------------*/    
+/*Social Network Details*/
 .social {
     padding: 10px 5px 10px 5px;
     float: right;
@@ -173,6 +175,49 @@ a:hover {
     background: #e64522;
 }
 
+/*-------------------------------------------------------------------*/
+
+/*NAVBAR CENTERED*/
+
+@media (min-width: 991px){
+.container-fluid{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+}
+}  
+
+@media (min-width: 768px){
+.container-fluid{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+}
+}  
+
+
+@media (min-width: 991px){
+.row{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+}
+}  
+
+@media (min-width: 768px){
+.row{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+}
+}  
+
+/*-------------------------------------------------------------------*/
+
 /* Main Content CSS */
  @media screen and (min-width: 991px) {
   .main {
@@ -202,52 +247,74 @@ a:hover {
       text-align: left;
       width: 300px;}}
 
+#heading1 {
+      padding: 5px 10px 5px 10px;
+      font-size: 150%;
+      font-weight: bold;
+      color: black;
+      border-left: 5px solid #960606;
+      background-color: 
+}
+
 #heading {
       font-size: 200%;
       font-weight: bold;
+      color: black;
 }
+
+
+
+#heading3 {
+      font-weight: bold;
+      color: #960606;
+}
+
+/*-------------------------------------------------------------------*/
 
  #twobox1{
   padding: 10px;
-  margin: 10px;
-  background-color: #FFEBCD;
-  border: 1px solid black;
-}  
- #twobox2{
-  padding: 10px;
-  margin: 10px;
-  background-color: #6495ED;
-  border: 1px solid black;
+  margin: 15px;
+  float: left;
 }  
 
- #box2, #box4{
-  padding: 10px;
-  margin: 10px;
-  background-color: #FFDEAD;
-  border: 1px solid black;
-}
- #box3, #box5{
-  background-color: #FFEBCD;
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid black;
-}
- 
 .line-separator{
 height:1px;
 background: #BC8F8F;
 }
 
+#box2{
+  float: left;
+  padding: 10px;
+  background-color: #B0C4DE;
+  border: 1px solid black;
+  box-shadow: 4px 4px 0px 0px #C0C0C0;
+}
+
+ #advert{
+  padding: 10px;
+  margin: 20px;
+  height: 100px;  
+  border: 1px solid #C0C0C0;
+  float: left;
+  color: black;
+}  
+
+
+/*-------------------------------------------------------------------*/
+
 /* Footer CSS */
  #footer{
       padding: 10px;
       color: white;
+      margin-top: 30px;
       /*background-color: #159957;*/
       background-image: linear-gradient(120deg, #960606, #e0600b);
       }
 
 ul, li {
        list-style-type: none;
+       padding: 0px;
+       margin: 0px;
 }
 
 #last{
@@ -256,3 +323,4 @@ ul, li {
       padding: 10px;
       margin: 0px;
 }
+/*-------------------------------------------------------------------*/
