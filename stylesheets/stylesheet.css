@@ -19,7 +19,7 @@ a:hover {
   color: white;
 }
 
-/* Navbar CSS */
+/******************************** Navbar CSS ***********************************/
 
 .page-header {
   color: #fff;
@@ -133,6 +133,7 @@ a:hover {
     margin: 0px 5px 0px 5px;
     padding: 10px;
     border-radius: 5%;
+
     -moz-border-radius: 5%;
     -webkit-border-radius: 5%;
     -o-border-radius: 5%;
@@ -169,72 +170,154 @@ a:hover {
     background: #e64522;
 }
 
+/*-------------------------------------------------------------------*/
 
+/*NAVBAR CENTERED*/
+
+@media (min-width: 991px){
+.container-fluid{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+}
+}  
+
+@media (min-width: 768px){
+.container-fluid{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+}
+}  
+ 
+
+
+/*-------------------------------------------------------------------*/
 
 /* Main Content CSS */
  @media screen and (min-width: 991px) {
-  .row{
+  .main {
       margin: 0 auto;
+      padding: 10px;
       text-align: left;
       width: 950px;} }
 
 @media screen and (min-width: 768px) and (max-width: 990px) {
-  .row{
+   .main {
       margin: 0 auto;
+      padding: 10px;
       text-align: left;
       width: 750px;} }
 
 @media screen and (min-width: 500px) and (max-width: 767px) {
-  .row{
+   .main {
       margin: 0 auto;
+      padding: 10px;
       text-align: left;
       width: 450px;} }
 
 @media screen and (max-width: 499px) {
- .row{
+  .main {
       margin: 0 auto;
+      padding: 10px;
       text-align: left;
       width: 300px;}}
 
-  
-h1, h4 {
-  color: black;
-  font-weight:bold;
+#heading1 {
+      padding: 5px 10px 5px 10px;
+      font-size: 150%;
+      font-weight: bold;
+      color: black;
+      border-left: 5px solid #960606;
+      background-color: 
 }
 
-h5{
-  color: #2F4F4F;
+#heading {
+      font-size: 200%;
+      font-weight: bold;
+      color: black;
 }
 
-#box1, #box2, #box3, #box4, #box5, #box6 {
-  padding: 10px;
-  margin: 5px;
-   border: 1px solid #A9A9A9;
-}
- #box2{
-  background-color: #FFDEAD;  
-}
- #box5{
-  background-color: #FFEBCD; 
-}
- .line-separator{
 
+
+#heading3 {
+      font-size: 200%;
+      font-weight: bold;
+      color: #960606;
+}
+
+#heading4{
+  margin: 0px auto;
+  padding: 5px 0px 5px 0px;
+  background-color: #960606;
+  color: white;
+  font-size: 150%;
+  font-weight: bold;
+  height: 35px;
+}
+
+#heading5 {
+      font-size: 100%;
+      font-weight: bold;
+      color: #960606;}
+
+#heading6 {
+      font-size: 100%;
+      color: black;
+}
+
+
+/*-------------------------------------------------------------------*/
+
+/*BOX LAYOUTS*/
+
+
+
+#box1{
+  margin: 0px;
+  padding: 0px;
+  border-left: 1px solid #C0C0C0;
+  float: left;
+}
+#box2{
+
+  border: 1px solid #C0C0C0;
+  float: left;
+
+}
+#box3{
+  float: left;
+  border-right: 1px solid #C0C0C0;
+}
+
+.line-separator{
 height:1px;
-
 background: #BC8F8F;
-
-border-bottom:1px solid #313030;
-
 }
+
+/*-------------------------------------------------------------------*/
+
+/* Footer CSS */
  #footer{
       padding: 10px;
       color: white;
-      background-color: #159957;
-      background-image: linear-gradient(120deg, #155799, #159957);
+      /*background-color: #159957;*/
+      background-image: linear-gradient(120deg, #960606, #e0600b);
+      margin-top: 30px;
       }
 
 ul, li {
        list-style-type: none;
+       padding: 0px;
+       margin: 0px;
+}
+
+p #featured ul,li{
+  margin: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 #last{
