@@ -325,6 +325,15 @@ height:1px;
 background: #BC8F8F;
 }
 
+#advert{
+  padding: 10px;
+  margin: 20px 0px 20px 0px;
+  height: 100px;  
+  border: 1px solid #C0C0C0;
+  float: left;
+  color: black;
+}  
+
 /*-------------------------------------------------------------------*/
 
 /* Footer CSS */
@@ -355,4 +364,3 @@ p #featured ul,li{
       margin: 0px;
 }
 /*-------------------------------------------------------------------*/
-
